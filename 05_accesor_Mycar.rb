@@ -1,3 +1,14 @@
+class MyCar
+
+  def initialize(year, model, color)
+    @year = year
+    @model = model
+    @color = color
+    @current_speed = 0
+  end
+end
+
+
 lumina = MyCar.new(1997, 'chevy lumina', 'white')
 
 class MyCar
